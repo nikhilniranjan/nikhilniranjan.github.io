@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="background-color: yellowgreen">
 
 
   <div id="overlayer"></div>
@@ -56,7 +56,7 @@
         <div class="row align-items-center">
 
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="#" class="h2 mb-0">Your Name</a></h1>
+            <h1 class="mb-0 site-logo"><a href="#" class="h2 mb-0">Nikhil Niranjan</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -86,19 +86,27 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
 
-            <img src="" alt="Image of you of something fun" class="img-fluid">
+            <img src="images/myphoto.jpeg" alt="Image of you of something fun" class="img-fluid">
 
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <p>
-               Who you are
+              <h5 style="color:blue;">Who I Am</h5>
+              <p style="color: black">
+               My name is Nikhil Niranjan. I am 20 years old. My hometown is Bangalore, India.
+               I am a third-year student at the University of San Diego (USD).
               </p>
-              <p>
-                Professional info
+              </p>
+              <h5 style="color:blue;">Professional Info</h5>
+              <p style="color: black">
+                I am majoring in Computer Science. I like the problem solving aspect of the field.
+                The topic of Artifical Intelligence and Big Data interest me and I would like to delve more into these areas. 
                </p>
-               <p>
-                Hobbies
+               <h5 style="color:blue;">Hobbies</h5>
+               <p style="color: black">
+                I am on the USD Mens Tennis Team. I devote a lot of time to the sport and aim to pursue it professionally.
+                I like to play other sports such as table tennis and cricket. 
+                I also enjoy playing the guitar in my free time.
                </p>
 
 
@@ -123,23 +131,50 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
           
-            <img src="" alt="Image of your project" class="img-fluid">
+            <img src="images/projectphoto.jpeg" alt="Image of your project" class="img-fluid">
           
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3>Project Title</h3>
+              <h2 style="color:black;">Banking System</h2>
               <p>
-               Motivation of the project
+              <br>
               </p>
-              <p>
-              Functional requirements/what the project does
               </p>
-              <p>
-              Project design
+              <h4 style="color:blue;">Motivation of the Project</h4>
+              <p style="color: black">
+               It is a simple but useful system that is crucial in today's world.
+               Personally, it helps improve my knowledge of java and is a way for me to bring everything I have learnt about coding together.
               </p>
-              <p>
-              Implementation
+
+              <h4 style="color:blue;">What the Project does</h4>
+              <p style="color: black">
+               br>
+              It implements a simple banking system that involves the elements - the bank itself, the accounts in the bank
+              and the customers who have the accounts in the bank. It involves the different actions such as deposit, withdraw, transfer and get balance and so on.
+              Accounts and corresponding customers can be added and removed. It covers a majority of the operations that make up a banking system in the real world.
+              </p>
+
+              <h4 style="color:blue;">Project Design</h4>
+              <p style="color: black">
+              5 classes were created - Bank, BankCustomer, BankAccount, CheckingAccount and SavingsAccount
+              The BankAccount class was an abstract class, which was extending the CheckingAccount and SavingsAccount classes
+              These are the main elements of the banking system so it is important that each of them have their own class
+              2 interfaces were created - Account and Customer
+              The BankAccount abstract class implements the Account interface and the BankCustomer class implements the Customer interface
+              These interfaces provide the framework for the classes.
+              Test cases for all the methods were crated.
+
+              Test-driven implementation was used. The test cases were written out first before the classes were implemented.
+              This design documents what each feature is going to do, focuses attention on boundary cases and ensures that the code is testable.
+
+              The whole program was coded in java.
+              </p>
+
+              <h4 style="color:blue;">Implementation</h4>
+              <p style="color: black">
+              I was responsible for implementing the Account interface, the BankAccount abstract class, and the CheckingAccount and SavingsAccount classes. I wrote out the test cases for these as well.
+              With the CheckingAccount and SavingsAccount classes, I was also able to add some complexity to our banking system by involving elements like minimum balance, overdraft and penalty fees, withdrawal limits and so on.
               </p>
 
 
@@ -171,7 +206,7 @@
           <div class="col-md-12 text-center">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h4 text-primary"></span>
-              <span>email address</span>
+              <a href="gmail.com">nikhil4tennis@gmail.com</a>
             </p>
           </div>
           
